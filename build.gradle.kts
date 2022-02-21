@@ -15,6 +15,10 @@ application {
     mainClass.set("io.ktor.server.netty.EngineMain")
 }
 
+tasks.create("stage") {
+    dependsOn("installDist")
+}
+
 repositories {
     mavenCentral()
     maven { url = uri("https://maven.pkg.jetbrains.space/public/p/ktor/eap") }

@@ -1,0 +1,1 @@
+web: build/install/com.tavi.hunterserver/bin/com.tavi.hunterserver
