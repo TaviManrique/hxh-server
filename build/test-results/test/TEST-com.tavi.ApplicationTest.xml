@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tavi.ApplicationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-02-08T02:22:17" hostname="BOTICA" time="0.644">
+  <properties/>
+  <testcase name="access all hunters endpoint, query all pages, assert correct information" classname="com.tavi.ApplicationTest" time="0.59"/>
+  <testcase name="access non existing endpoint, assert not found" classname="com.tavi.ApplicationTest" time="0.007"/>
+  <testcase name="access all heroes endpoint, query invalid page number, assert error" classname="com.tavi.ApplicationTest" time="0.01"/>
+  <testcase name="access search heroes endpoint, query hunter name, assert single hunter result" classname="com.tavi.ApplicationTest" time="0.005"/>
+  <testcase name="access search heroes endpoint, query hunter name, assert multiple hunters result" classname="com.tavi.ApplicationTest" time="0.008"/>
+  <testcase name="access search heroes endpoint, query an empty text, assert empty list as a result" classname="com.tavi.ApplicationTest" time="0.005"/>
+  <testcase name="access root endpoint, assert correct information" classname="com.tavi.ApplicationTest" time="0.004"/>
+  <testcase name="access search heroes endpoint, query non existing hunter, assert empty list as a result" classname="com.tavi.ApplicationTest" time="0.004"/>
+  <testcase name="access all heroes endpoint, assert correct information" classname="com.tavi.ApplicationTest" time="0.006"/>
+  <testcase name="access all heroes endpoint, query non existing page number, assert error" classname="com.tavi.ApplicationTest" time="0.004"/>
+  <system-out><![CDATA[2022-02-07 21:22:17.426 [Test worker] INFO  ktor.test - Autoreload is disabled because the development mode is off.
+2022-02-07 21:22:17.436 [Test worker] INFO  ktor.test - Application started in 0.053 seconds.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
