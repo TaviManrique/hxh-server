@@ -2,10 +2,10 @@ package com.tavi.routes
 
 import com.tavi.models.ApiResponse
 import com.tavi.repository.HunterRepository
-import io.ktor.application.*
 import io.ktor.http.*
-import io.ktor.response.*
-import io.ktor.routing.*
+import io.ktor.server.application.*
+import io.ktor.server.response.*
+import io.ktor.server.routing.*
 import org.koin.ktor.ext.inject
 
 fun Route.getAllHunters() {

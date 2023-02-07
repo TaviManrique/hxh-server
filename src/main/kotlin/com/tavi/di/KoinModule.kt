@@ -10,9 +10,8 @@ val koinModule = module {
     single<HunterRepository> {
         HunterRepositoryImpl()
     }
-    //Alternative
-    /*
+
     single<HunterRepositoryAlternative> {
         HunterRepositoryImplAlternative()
-    }*/
+    }
 }
